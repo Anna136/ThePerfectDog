@@ -112,6 +112,7 @@ section ol li a:active{
 	text-decoration: none;
 	opacity: 0.7;
 }
+/*FOOTER*/
 footer{
 	display: grid;
 	grid-template-columns: 275px auto;
