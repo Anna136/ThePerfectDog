@@ -3,30 +3,18 @@ body{
 	padding: 0px;
 	font-family: 'Montserrat', sans-serif;	
 }
-.container{
-	width: 980px;
-	margin: 0 auto;
-	padding: 10px;
-}
-/* HEADER*/
+/*HEADER*/
 header{
-	width: 100%;
-	height: 100vh;
-	background-image: url(../img/b.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+    background: radial-gradient(circle, rgba(63,141,177,1) 0%, rgba(0,112,156,1) 100%);
+    display: grid;
+	grid-template-columns: 550px auto;
+	grid-template-rows: 100px;
 }
 .logo{
 	margin-left: 25px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-.header-top{
-	display: grid;
-	grid-template-columns: 550px auto;
-	grid-template-rows: 100px;
-}
-/*nav*/
 .header-menu{
 	margin-left: 120px;
  	margin-top: 30px;
@@ -35,7 +23,7 @@ header{
 	margin: 0;
  	padding: 0;
  	margin-left: 50px;
-	list-style: none;
+ 	list-style: none;
 }
 .header-menu ul li{
 	display: inline-block;
@@ -93,43 +81,41 @@ header{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/*SECTOIN*/
-.popular-dogs .container{
-	display: grid;
+/*SECTION*/
+section{
+    width: 1080px;
+	margin: 0 auto;
+	padding: 10px;
 }
-h1{
-	font-size: 36px;
-}
-.description{
-	height: 300px;
-
-}
-.description a{
-	color: #000;
-	text-decoration: none;
-}
-.description a:hover{
-	text-decoration: underline;
-}
-.description a:active{
-	text-decoration: none;
-	opacity: 0.7;
-}
-.img-type1{
-	height: 300px;
-	float: right;
-	margin-left: 15px;
-}
-.img-type2{
+section img{
 	height: 300px;
 	float: left;
 	margin-right: 15px;
 }
-/*FOOTER*/
+.description{
+	height: 300px;
+}
+section h1{
+    font-size: 36px;
+}
+section ol li{
+	font-size: 24px;
+}
+section ol li a{
+	color: #000;
+	text-decoration: none;
+}
+section ol li a:hover{
+	text-decoration: underline;
+}
+section ol li a:active{
+	text-decoration: none;
+	opacity: 0.7;
+}
 footer{
-	background: radial-gradient(circle, rgba(63,141,177,1) 0%, rgba(0,112,156,1) 100%);
 	display: grid;
 	grid-template-columns: 275px auto;
+	background: radial-gradient(circle, rgba(63,141,177,1) 0%, rgba(0,112,156,1) 100%);
 }
 .footer-menu{
 	margin-left: 120px;
